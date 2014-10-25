@@ -1,2 +1,2 @@
-startbootstrap-simple-sidebar
-=============================
+Start Bootstrap - Simple Sidebar
+=========
