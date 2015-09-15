@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +28,7 @@
 
 </head>
 
-<body>
+<body style="background-color:#D8D8D8;">
 
     <div id="wrapper">
 
@@ -39,7 +41,11 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="student_home.php">
+								<div class="formatbar">
+								<img src="images/home.png">
+								Dashboard
+								</div>
                 </li>
                 <li>
                     <a href="#">Shortcuts</a>
@@ -51,7 +57,8 @@
                     <a href="#">Events</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                   <a href="#"><div class="formatbar">
+								<img src="images/about.png">  About	</div></a>
                 </li>
                 <li>
                     <a href="#">Services</a>
@@ -60,6 +67,9 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
+            <div class="sidebar-nav-bottom">
+							<p class="sidebar-copyright">&copy; Site name goes Here <a href="mailto:Contact@contact.com">Contact</a></p>
+						</div>
         </div>
         <!-- /#sidebar-wrapper -->
 
@@ -71,7 +81,7 @@
                         <h1>Simple Sidebar</h1>
                         <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
                         <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Hide Menu</a>
                     </div>
                 </div>
             </div>
@@ -82,10 +92,10 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
 
     <!-- Menu Toggle Script -->
     <script>
