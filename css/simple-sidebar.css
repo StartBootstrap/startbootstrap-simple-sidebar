@@ -109,6 +109,14 @@
     bottom: 45;
 }
 
+.sidebar-icon-format{
+  padding: 10px 0;
+ vertical-align: middle;
+   margin: 0 auto;
+     text-align: left;
+}
+
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
