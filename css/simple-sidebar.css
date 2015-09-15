@@ -116,6 +116,17 @@
      text-align: left;
 }
 
+.sidebar-copyright{
+  padding: 50px 0;
+  font-size: 100%;
+  color: #CECEF6;
+  font-weight: bold;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media(min-width:768px) {
     #wrapper {
