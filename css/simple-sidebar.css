@@ -96,6 +96,16 @@
     background: none;
 }
 
+li > .sub-bar {
+    padding-left: 10px;
+    font-size: 0.85em;
+}
+
+.sub-bar > .sub-bar {
+    padding-left: 10px;
+    font-size: 0.95em;
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
