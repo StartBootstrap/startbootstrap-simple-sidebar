@@ -9,6 +9,10 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git`
 * Fork the repo
 
+## Support for Pico CMS
+
+[Start Bootstrap](http://startbootstrap.com/) - [Simple Sidebar](http://startbootstrap.com/template-overviews/simple-sidebar/) can be used with [Pico CMS](http://picocms) through the ported [bt-theme](https://github.com/dmelo/bt-theme) project.
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/simple-sidebar/).
