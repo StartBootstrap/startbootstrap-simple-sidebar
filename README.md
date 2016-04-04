@@ -17,7 +17,7 @@ Next include the CSS and JavaScript files in your project
 <script type="text/javascript" src="js/simple-sidebar.js"></script>
 ```
 
-Now all you need to do is place your sidebar in a div with id="wrapper"
+Now all you need to do is place your sidebar in the `sidebar-wrapper` and your page content in `page-content-wrapper`
 
 ```html
 <div id="wrapper">
