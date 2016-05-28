@@ -13,6 +13,8 @@ To begin using this template, choose one of the following options to get started
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/simple-sidebar/).
 
+Make sure to add `shrink-to-fit=no` to your viewport meta tag for the sidebar to work correctly in iOS 9 Safari.
+
 ## Creator
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
