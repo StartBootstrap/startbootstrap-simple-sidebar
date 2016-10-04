@@ -47,6 +47,15 @@
     padding: 15px;
 }
 
+#page-content-wrapper a{
+    color: black;
+}
+
+#page-content-wrapper a:hover{
+    color: black;
+    text-decoration: none;
+}
+
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -250px;
