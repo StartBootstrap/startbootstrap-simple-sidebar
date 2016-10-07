@@ -42,7 +42,7 @@
 }
 
 #page-content-wrapper {
-    width: 100%;
+    width: 65%;
     position: absolute;
     padding: 15px;
 }
@@ -126,4 +126,8 @@
         position: relative;
         margin-right: 0;
     }
+}
+
+p {
+    text-indent: 20px;
 }
