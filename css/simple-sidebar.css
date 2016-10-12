@@ -42,7 +42,7 @@
 }
 
 #page-content-wrapper {
-    width: 63%;
+    width: 100%;
     position: absolute;
     padding: 15px;
 }
@@ -139,6 +139,7 @@ h4{
 
 p {
     text-indent: 20px;
+    max-width: calc(30em * 2);
 }
 
 a:link{
