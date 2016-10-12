@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fanchi Meng</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="publications.html">Publications</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                       <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <h1>Projects</h1>
+                        <h4>DFLpred</h4>
+                        <p><b>A high-throughput predictor of disordered flexible linker (DFL) regions in proteins.</b> It outputs propensity score to form DFL for each residue in the input sequence. This method is characterized by the area under receiver operating characteristic curve (AUC) of 0.715 on independent test set. It needs less than one hour to predict an entire proteome.</p>
+                        <li>Webserver: <a href="http://biomine-ws.ece.ualberta.ca/DFLpred">http://biomine-ws.ece.ualberta.ca/DFLpred</a></li>
+                        <li>Standalone package (java): <a href="https://fanchi.github.io/DFLpred/">https://fanchi.github.io/DFLpred/</a></li>
+                        <li>Paper: <a href="http://bioinformatics.oxfordjournals.org/content/32/12/i341">Bioinformatics</a></li>
+
+                        <h4>Analysis of autophagy-related disordered proteins in intra-nuclear compartments</h4>
+                        <p>We collected autophagy-related proteins from the <a href="http://www.tanpaku.org/autophagy">Autophagy Database</a>, and nuclear proteins and their annotations of the intra-nuclear compartments from the <a href="http://bioinf.scmb.uq.edu.au:8080/nsort/db/">Nsort/DB</a> database. By using a majority-vote based prediction of disorder, we analyzed similarities and differences in the intrinsic disorder distribution of nuclear and non-nuclear proteins related to autophagy.</p>
+                        <li>Paper: <a href="http://pubs.rsc.org/en/Content/ArticleLanding/MB/2016/C6MB00069J">Molecular BioSystems</a></li>
+
+                        <h4>Analysis of intrinsic disorder and protein-protein interactions in Intra-Nuclear Compartments</h4>
+                        <p>We analyzed the profile of intrinsic disorder for 3005 mouse proteins localized in specific intra-nuclear organelles and compared them with 29,863 non-nuclear proteins. Nuclear proteins are collected from the <a href="http://bioinf.scmb.uq.edu.au:8080/nsort/db/">Nsort/DB</a> database, and are mapped into the complete mouse proteome (collected from <a href="http://www.uniprot.org/">Uniprot</a>) to create the set of non-nuclear proteins. We also analysed the differences in PPIs (protein-protein interactions) between nuclear proteins (including subsets of nuclear proteins localized in specific intra-nuclear compartments) and non-nuclear proteins by using PPI network collected from the <a href="http://mentha.uniroma2.it/">Mentha database</a>.</p>
+                        <li>Paper: <a href="http://www.mdpi.com/1422-0067/17/1/24">International Journal of Molecular Sciences</a></li>
+
+                        <h4>Analysis of intrinsic disorder of the dengue virus</h4>
+                        <p>We evaluate the extent of intrinsic disorder in the complete proteomes of genotypes of four human dengue virus, to analyze the peculiarities of disorder distribution within individual DENV proteins, and to establish potential roles for the structural disorder with respect to their functions. The dengue virus proteins are collected from <a href="http://www.uniprot.org/">Uniprot</a>, and we use a wide spectrum of bioinformatics techniques to generate 20 types of structural and functional annotations for these proteins.</p>
+                        <li>Paper: <a href="http://onlinelibrary.wiley.com/doi/10.1111/febs.13349/abstract">FEBS Journal</a></li>
+
+                        <h4>bi-BPCA</h4>
+                        <p><b>A method to impute missing values for microarray data.</b> We find the most correlated genes (rows) and experimental conditions (columns) with the missing entry by biclustering, and impute these biclusters by an existing method, the <a href="http://ishiilab.jp/member/oba/tools/BPCAFill.html">BPCA (Bayesian Principal Component Analysis) method</a>. An automatic parameter learning scheme is also developed to obtain optimal parameters for this method.</p>
+                        <li>Standalone package (Matlab): <a href="https://fanchi.github.io/bi-BPCA/">https://fanchi.github.io/bi-BPCA/</a></li>
+                        <li>Paper: <a href="http://ieeexplore.ieee.org/document/6630054/">IEEE Journal of Biomedical and Health Informatics</a></li>
+                        
+                        <br>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Show/Hide sidebar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+
+    </body>
+
+    </html>

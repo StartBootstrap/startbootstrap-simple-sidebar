@@ -6,7 +6,7 @@
 
  body {
     overflow-x: hidden;
- }
+}
 
 /* Toggle Styles */
 
@@ -42,7 +42,7 @@
 }
 
 #page-content-wrapper {
-    width: 65%;
+    width: 63%;
     position: absolute;
     padding: 15px;
 }
@@ -128,6 +128,24 @@
     }
 }
 
+h1{
+    margin-bottom:40px;
+}
+
+h4{
+    margin-top:30px;
+    margin-bottom: 3px;
+}
+
 p {
     text-indent: 20px;
 }
+
+a:link{
+    text-decoration: underline;
+}
+
+#pubs{
+    text-indent: 0px;
+}
+
