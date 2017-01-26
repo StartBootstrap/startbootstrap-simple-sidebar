@@ -1,0 +1,87 @@
+/*C:\Users\Fanchi\.atom\mycss\mycss.css*/
+body{
+    margin: 0 auto;
+    //font-family: Georgia, Palatino, serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #444444;
+    line-height: 1.5;
+    max-width: 960px;
+    padding: 30px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 20px;
+    padding: 0;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 18px;
+    margin: 24px 0 6px;
+}
+h3 {
+    font-size: 14px;
+}
+/*h4 {
+    font-size: 13px;
+}
+h5 {
+    font-size: 11px;
+}*/
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ul, ol, li, p, ul{
+    /*padding: 0;
+    margin: 0;*/
+    font-size: 11px;
+    line-height: 1.5;
+    max-width: 640px;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 11px;
+}
+/*li {
+    font-size: 11px;
+    line-height: 1.5;
+    max-width: 640px;
+}
+p, ul, ol {
+    font-size: 11px;
+    line-height: 1.5;
+    max-width: 640px;
+}*/
+/*pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}*/
+
+/*aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    margin: 1em 2em;
+    max-width: 476px;
+}
+blockquote p {
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}*/
