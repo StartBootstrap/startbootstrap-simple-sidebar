@@ -20,6 +20,7 @@ Looking for an intern job in software engineering in 2017
 `Web server` [http://biomine-ws.ece.ualberta.ca/pcDETECT/](http://biomine-ws.ece.ualberta.ca/pcDETECT/)  
 `Back end` Java  
 `Data analysis` Python  
+
 *A full list and details of my projects can be found at [https://sites.ualberta.ca/~fanchi/projects.html](https://sites.ualberta.ca/~fanchi/projects.html)*
 
 ## Skills
