@@ -1,0 +1,15 @@
+{
+    "name": "startbootstrap-simple-sidebar",
+    "title": "Simple Sidebar",
+    "version": "3.3.7",
+    "homepage": "http://startbootstrap.com/template-overviews/simple-sidebar",
+    "author": "Start Bootstrap",
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git"
+    }
+}
