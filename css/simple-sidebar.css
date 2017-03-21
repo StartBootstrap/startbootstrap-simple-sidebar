@@ -16,6 +16,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
 }
 
 #wrapper.toggled {
@@ -77,7 +78,9 @@
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background-color:#045FB4;
+    /*background: rgba(255,255,255,0.2);*/
+
 }
 
 .sidebar-nav li a:active,
@@ -89,16 +92,45 @@
     height: 65px;
     font-size: 18px;
     line-height: 60px;
+   
+    background: rgba(255,255,255,0.2);
+   
+
 }
 
 .sidebar-nav > .sidebar-brand a {
     color: #999999;
+
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
     background: none;
 }
+
+.sidebar-nav-bottom{
+    position: absolute; 
+    bottom: 45;
+}
+
+.sidebar-icon-format{
+  padding: 10px 0;
+ vertical-align: middle;
+   margin: 0 auto;
+     text-align: left;
+}
+
+.sidebar-copyright{
+  padding: 50px 0;
+  font-size: 100%;
+  color: #CECEF6;
+  font-weight: bold;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media(min-width:768px) {
     #wrapper {
