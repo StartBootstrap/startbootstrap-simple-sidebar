@@ -9,6 +9,29 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git`
 * Fork the repo
 
+Next include the CSS and JavaScript files in your project
+
+```html
+<link rel="stylesheet" type="text/css" href="css/simple-sidebar.css" />
+
+<script type="text/javascript" src="js/simple-sidebar.js"></script>
+```
+
+Now all you need to do is place your sidebar in the `sidebar-wrapper` and your page content in `page-content-wrapper`
+
+```html
+<div id="wrapper">
+    <div id="sidebar-wrapper"></div>
+    <div id="page-content-wrapper"></div>
+</div>
+```
+
+To toggle the sidebar add a button
+
+```html
+<a href="#wrapper" class="btn btn-default" id="menu-toggle" data-toggle="simple-sidebar" data-target="#wrapper">Toggle Menu</a>
+```
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/simple-sidebar/).
