@@ -138,7 +138,7 @@ h4{
 }
 
 p {
-    text-indent: 20px;
+    /*text-indent: 20px;*/
     max-width: calc(30em * 2);
 }
 
