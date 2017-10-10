@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="Fanchi Meng contact">
+    <meta name="description" content="Fanchi Meng projects">
     <meta name="author" content="Fanchi">
 
     <title>Fanchi Meng</title>
@@ -23,7 +23,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
     </head>
 
     <body>
@@ -49,7 +49,7 @@
                         <a href="resume.html">Resume</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                       <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,22 +60,18 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1>Contact</h1>
-                            <img src="pics/avatar.jpg" alt="Fanchi"/>
-                            <h4>Address</h4>
-                            <p>W5-078, ECERF 9107 - 116 Street. Edmonton, AB T6G 2V4</p>
-                            <h4>Email</h4>
-                            <p>fanchi#ualberta.ca, replace "#" with "@"</p>
-                            <h4>Github</h4>
-                            <p><a href="https://github.com/fanchi">https://github.com/fanchi</a></p>
-                            <p>Repositories of some ongoing, unpublished projects are not visiable to public.</p>
-                            <h4>Biomine (Kurgan lab)</h4>
-                            <p>Old link:<br><a href="http://biomine.ece.ualberta.ca">http://biomine.ece.ualberta.ca</a></p>
-                            <p>New link:<br><a href="http://biomine.cs.vcu.edu">http://biomine.cs.vcu.edu</a></p>
-                            <h4>LinkedIn Profile</h4>
-                            <p><a href="https://www.linkedin.com/in/~fanchi">https://www.linkedin.com/in/~fanchi</a></p>
-                            <br>
-                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Show/Hide sidebar</a>
+                        <h1>Side Projects</h1>
+                        
+                        <h4>Page Rank</h4>
+                        <p>Implementation of page rank on Hadoop. It has two MapReduce jobs. Given an initial page rank (weight) and transition matrix, it iteratively updates the page rank based on the previous page rank and transition matrix.</p>
+                        <li>GitHub page: <a href="https://github.com/fanchi/PageRank">https://github.com/fanchi/PageRank</a></li>
+                        
+                        <h4>EasyEva</h4>
+                        <p>A web interface that helps assess the quality of binary predictions. Given a number of samples with the ground truth label (1 for positive and 0 for negative) and the probability (or propensity score) for being a true label, it draws the Receiver operating characteristic (ROC) curve, and calculate the AUC value. Based on certain cut-off values of the probability, it calculates the accuracy, precision, sensitivity (recall, or true positive rate), specificity and Matthews correlation coefficient (MCC).</p>
+                        <li>Project page: <a href="">Under construction</a></li>
+                        
+                        <br>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Show/Hide sidebar</a>
                         </div>
                     </div>
                 </div>
