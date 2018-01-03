@@ -62,35 +62,35 @@
                         <div class="col-lg-12">
                         <h1>Projects</h1>
                         
-                        <h4>DMRpred</h4>
+                        <h4>[Machine Learning] DMRpred</h4>
                         <p><b>DMRpred is a high-throughput predictor (Random Forest) of disordered moonlighting regions (DMRs) in proteins.</b> DMRs are disordered, and carry out more than one disorder related functions. DMRpred is a Random Forest model using empirically designed features taking into account sequence conservation information, relative solvent accessibility, intrinsic disorder and function-related amino acid indexes. For each residue in the input sequence, it outputs propensity score and binary prediction of being in a DMR. DMRpred takes less than one minute to predict a protein of typical length (about 500 residues long).</p>
                         <li>Webserver: <a href="http://biomine.cs.vcu.edu/servers/DMRpred/">http://biomine.cs.vcu.edu/servers/DMRpred/</a></li>
                         <li>Paper: Under review</li>
 
-                        <h4>fDETECT</h4>
+                        <h4>[Application] fDETECT</h4>
                         <p><b>fDETECT is a web server that predicts if a given protein sequence can pass the four steps of the crystallization pipeline</b> - material production, purification, crystallization and diffraction-quality crystallization. It allows users to run fast predictions for large datasets and to run slower but more accurate predictions for small datasets.  This webserver implements the fDETECT method (linear models) (<u>f</u>ast <u>D</u>etermination of <u>E</u>ligibility of <u>T</u>arg<u>E</u>ts for <u>C</u>rys<u>T</u>allization) [Acta Cryst. (2014). D70, 2781-2793] and the PPCpred method (SVM models) (<u>Pred</u>ictor of protein <u>P</u>roduction, <u>P</u>urification and <u>C</u>rystallization) [Bioinformatics. (2011). Volume 27, Issue 13, i24–i331].</p>
                         <li>Webserver: <a href="http://biomine.cs.vcu.edu/servers/fDETECT/">http://biomine.cs.vcu.edu/servers/fDETECT/</a></li>
-                        <li>Paper: To appear in <a href="https://bmcbioinformatics.biomedcentral.com/">BMC Bioinformatics</a></li>
+                        <li>Paper: <a href="http://rdcu.be/DXak">BMC Bioinformatics</a></li>
 
-                        <h4>DFLpred</h4>
+                        <h4>[Machine Learning] DFLpred</h4>
                         <p><b>DFLpred is a high-throughput predictor (Logistic Regression) of disordered flexible linker (DFL) regions in proteins.</b> DFLpred is a Logistic Regression model using selected features that quantify propensities to form certain secondary structures, disordered regions and structured regions. For each residue in the input sequence, it outputs propensity score and binary prediction of being in a DFL region. DFLpred is fast, it takes less than one hour to predict an entire proteome.</p>
                         <li>Webserver: <a href="http://biomine.cs.vcu.edu/servers/DFLpred/">http://biomine.cs.vcu.edu/servers/DFLpred/</a></li>
-                        <li>Standalone package (java): <a href="https://fanchi.github.io/DFLpred/">https://fanchi.github.io/DFLpred/</a></li>
+                        <li>Standalone package (Java): <a href="https://fanchi.github.io/DFLpred/">https://fanchi.github.io/DFLpred/</a></li>
                         <li>Paper: <a href="http://bioinformatics.oxfordjournals.org/content/32/12/i341">Bioinformatics</a></li>
 
-                        <h4>Analysis of autophagy-related disordered proteins in intra-nuclear compartments</h4>
+                        <h4>[Data Analysis] Analysis of autophagy-related disordered proteins in intra-nuclear compartments</h4>
                         <p>I collected autophagy-related proteins from the <a href="http://www.tanpaku.org/autophagy">Autophagy Database</a>, and nuclear proteins and their annotations of the intra-nuclear compartments from the <a href="http://bioinf.scmb.uq.edu.au:8080/nsort/db/">Nsort/DB</a> database. By using a majority-vote based prediction of disorder, I analyzed similarities and differences in the intrinsic disorder distribution of nuclear and non-nuclear proteins related to autophagy.</p>
                         <li>Paper: <a href="http://pubs.rsc.org/en/Content/ArticleLanding/MB/2016/C6MB00069J">Molecular BioSystems</a></li>
 
-                        <h4>Analysis of intrinsic disorder and protein-protein interactions in Intra-Nuclear Compartments</h4>
+                        <h4>[Data Analysis] Analysis of intrinsic disorder and protein-protein interactions in Intra-Nuclear Compartments</h4>
                         <p>I analyzed the profile of intrinsic disorder for 3005 mouse proteins localized in specific intra-nuclear organelles and compared them with 29,863 non-nuclear proteins. Nuclear proteins are collected from the <a href="http://bioinf.scmb.uq.edu.au:8080/nsort/db/">Nsort/DB</a> database, and are mapped into the complete mouse proteome (collected from <a href="http://www.uniprot.org/">UniProt</a>). By excluding nuclear proteins from the complete mouse proteome, I created the set of 29,863 non-nuclear proteins. I also analysed the differences in PPIs (protein-protein interactions) between nuclear proteins (including subsets of nuclear proteins localized in specific intra-nuclear compartments) and non-nuclear proteins by using PPI network collected from the <a href="http://mentha.uniroma2.it/">Mentha database</a>.</p>
                         <li>Paper: <a href="http://www.mdpi.com/1422-0067/17/1/24">International Journal of Molecular Sciences</a></li>
 
-                        <h4>Analysis of intrinsic disorder of the dengue virus</h4>
+                        <h4>[Data Analysis] Analysis of intrinsic disorder of the dengue virus</h4>
                         <p>I evaluated the extent of intrinsic disorder in the complete proteomes of genotypes of four human dengue virus, to analyze the peculiarities of disorder distribution within individual dengue virus proteins, and to establish potential roles for the structural disorder with respect to their functions. The dengue virus proteins are collected from <a href="http://www.uniprot.org/">UniProt</a>, and I use a wide spectrum of bioinformatics techniques to generate 20 types of structural and functional annotations for these proteins.</p>
                         <li>Paper: <a href="http://onlinelibrary.wiley.com/doi/10.1111/febs.13349/abstract">FEBS Journal</a></li>
 
-                        <h4>bi-BPCA</h4>
+                        <h4>[Machine Learning] bi-BPCA</h4>
                         <p><b>bi-BPCA is a method to impute missing values of microarray data.</b> I find the most correlated genes (rows) and experimental conditions (columns) with the missing entry by biclustering, and impute these biclusters by an existing method, the <a href="http://ishiilab.jp/member/oba/tools/BPCAFill.html">BPCA (Bayesian Principal Component Analysis) method</a>. I also developed an automatic parameter learning scheme to obtain the optimal parameters for this method.</p>
                         <li>Standalone package (Matlab): <a href="https://fanchi.github.io/bi-BPCA/">https://fanchi.github.io/bi-BPCA/</a></li>
                         <li>Paper: <a href="http://ieeexplore.ieee.org/document/6630054/">IEEE Journal of Biomedical and Health Informatics</a></li>
