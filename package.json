@@ -1,7 +1,7 @@
 {
     "title": "Simple Sidebar",
     "name": "startbootstrap-simple-sidebar",
-    "version": "4.0.0",
+    "version": "4.1.1",
     "description": "A simple sidbar navigation HTMl template built with Bootstrap",
     "keywords": [
         "css",
@@ -26,11 +26,11 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git"
     },
     "dependencies": {
-        "bootstrap": "4.0.0",
+        "bootstrap": "4.1.1",
         "jquery": "3.3.1"
     },
     "devDependencies": {
-        "browser-sync": "2.23.6",
+        "browser-sync": "2.24.2",
         "gulp": "^3.9.1"
     }
 }
