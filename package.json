@@ -30,7 +30,7 @@
         "jquery": "3.3.1"
     },
     "devDependencies": {
-        "browser-sync": "2.24.3",
+        "browser-sync": "2.24.5",
         "gulp": "^3.9.1"
     }
 }
