@@ -1,0 +1,124 @@
+
+body {
+	overflow-x: hidden;
+}
+#wrapper {
+	padding-left: 0;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 0.5s ease;
+	&.toggled {
+		padding-left: $sidebar-size;
+		#sidebar-wrapper {
+			width: $sidebar-size;
+		}
+		#page-content-wrapper {
+			position: absolute;
+			margin-right: -1*$sidebar-size;
+		}
+	}
+}
+
+#sidebar-wrapper {
+	z-index: 1000;
+	position: fixed;
+	left: $sidebar-size;
+	width: 0;
+	height: 100%;
+	margin-left: -1*$sidebar-size;
+	overflow-y: auto;
+	background: $sidebar-bg;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 0.5s ease;
+}
+#page-content-wrapper {
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+}
+.sidebar-nav {
+	position: absolute;
+	top: 0;
+	width: $sidebar-size;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		text-indent: 20px;
+		line-height: 40px;
+		a {
+			display: block;
+			text-decoration: none;
+			color: $sidebar-color;
+			border-bottom: 1px solid rgba($sidebar-hover-color, .2);
+			&:hover {
+				text-decoration: none;
+				color: $sidebar-hover-color;
+				background: $sidebar-hover-background;
+			}
+			&:active {
+				text-decoration: none;
+			}
+			&:focus {
+				text-decoration: none;
+			}
+		}
+		&.active {
+			color: $sidebar-hover-color;
+			background: $sidebar-hover-background;
+		}
+		&:first-of-type {
+			margin-top: 40px;
+			a {
+				border-top: 1px solid rgba($sidebar-hover-color, .2);
+			}
+		}
+	}
+	> .sidebar-brand {
+		height: 65px;
+		font-size: 18px;
+		line-height: 60px;
+		a {
+			color: $sidebar-color;
+			&:hover {
+				color: $sidebar-hover-color;
+				background: none;
+			}
+		}
+	}
+}
+@media(min-width:768px) {
+	#wrapper {
+		padding-left: 0;
+		&.toggled {
+			padding-left: $sidebar-size;
+			#sidebar-wrapper {
+				width: $sidebar-size;
+			}
+			#page-content-wrapper {
+				position: relative;
+				margin-right: 0;
+			}
+		}
+	}
+	#sidebar-wrapper {
+		width: 0;
+	}
+	#page-content-wrapper {
+		padding: 20px;
+		position: relative;
+	}
+}
+#sidebar-toggle {
+	padding: .25rem .75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0;
+	&:hover {
+		cursor: pointer;
+	}
+	.navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+}
