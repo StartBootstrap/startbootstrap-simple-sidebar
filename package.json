@@ -1,9 +1,9 @@
 {
     "title": "Simple Sidebar",
     "name": "startbootstrap-simple-sidebar",
-    "version": "5.1.0",
+    "version": "5.1.1",
     "scripts": {
-        "start": "gulp watch"
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "A simple sidbar navigation HTMl template built with Bootstrap",
     "keywords": [
@@ -33,9 +33,9 @@
         "jquery": "3.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.5",
+        "browser-sync": "2.26.7",
         "del": "^4.1.1",
         "gulp": "4.0.2",
-        "merge-stream": "^1.0.1"
+        "merge-stream": "2.0.0"
     }
 }
