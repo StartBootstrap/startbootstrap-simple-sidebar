@@ -1,11 +1,11 @@
 {
     "title": "Simple Sidebar",
     "name": "startbootstrap-simple-sidebar",
-    "version": "5.1.1",
+    "version": "5.1.2",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A simple sidbar navigation HTMl template built with Bootstrap",
+    "description": "A simple sidebar navigation HTMl template built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -14,9 +14,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/simple-sidebar",
+    "homepage": "https://startbootstrap.com/templates/simple-sidebar",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/issues",
+        "url": "https://github.com/StartBootstrap/startbootstrap-simple-sidebar/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -26,15 +26,15 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar.git"
+        "url": "https://github.com/StartBootstrap/startbootstrap-simple-sidebar.git"
     },
     "dependencies": {
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1"
+        "bootstrap": "4.5.0",
+        "jquery": "3.5.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
-        "del": "^4.1.1",
+        "del": "5.1.0",
         "gulp": "4.0.2",
         "merge-stream": "2.0.0"
     }
