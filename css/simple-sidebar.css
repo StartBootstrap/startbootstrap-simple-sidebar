@@ -3,9 +3,10 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
-body {
-  overflow-x: hidden;
-}
+
+ #wrapper {
+    overflow-x: hidden;
+ }
 
 #sidebar-wrapper {
   min-height: 100vh;
